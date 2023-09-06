@@ -8,6 +8,7 @@ public class Jerarquico extends Empleado{
     //Constructor
     public Jerarquico(String nombre, String apellido, int edad, int nro_legajo, int sueldo) {
         super(nombre, apellido, edad, nro_legajo, sueldo);
+        this.empleadosAcargo = new ArrayList<>();
     }
 
     //Metodos

@@ -32,7 +32,7 @@ public class Empleado extends Persona{
     @Override
     public String toString(){
         return "Nombre: "+getNombre()+"\nApellido: "+getApellido()+"\nEdad: "+getEdad()+
-                "\nNúmero de legajo"+getNro_legajo()+"\nSueldo: "+getSueldo();
+                "\nNúmero de legajo: "+getNro_legajo()+"\nSueldo: "+getSueldo();
     }
 
 }
